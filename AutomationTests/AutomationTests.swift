@@ -29,7 +29,7 @@ class AutomationTests: XCTestCase {
     func testAutomation1() {
         //Update comments
         let text = viewModel.automationText
-      XCTAssertEqual(text, "AutomationText")
+      XCTAssertEqual(text, "AutomationText1121")
     }
 
     func testPerformanceExample() throws {
