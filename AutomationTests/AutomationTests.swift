@@ -25,6 +25,11 @@ class AutomationTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         XCTAssertEqual(viewModel.title, "Automation")
     }
+    
+    func testAutomation1() {
+        let text = viewModel.automationText
+      XCTAssertEqual(text, "AutomationText")
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.

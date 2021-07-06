@@ -9,4 +9,5 @@ import Foundation
 
 final class ViewModel {
     let title = "Automation"
+    let automationText = "AutomationText"
 }
